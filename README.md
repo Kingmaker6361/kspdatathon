@@ -1,51 +1,32 @@
-# AI-Based Smart Surveillance and Public Safety System
+# AI Smart Surveillance System
 
-## Overview
-
-AI-Based Smart Surveillance and Public Safety System is a computer vision project designed for Bengaluru Smart City and Karnataka State Police (KSP) applications.
-
-The system uses YOLOv8, OpenCV, and Artificial Intelligence to monitor CCTV feeds in real time and detect public safety incidents automatically.
+AI-powered surveillance system using YOLOv8 and OpenCV.
 
 ## Features
 
-* Overcrowd Detection
-* Road Accident Detection
-* Rash Driving Detection
-* Wheelie Detection
-* Weapon Detection
-* Missing Vehicle Detection
-* Missing Person Detection
-* Real-Time CCTV Monitoring
-* Emergency Alert Generation
+- Road Accident Detection
+- Overcrowd Detection
+- Rash Driving Detection
+- Wheelie Detection (Prototype)
+- Weapon Detection (Prototype)
+- Missing Vehicle Detection (Prototype)
+- Missing Person Detection (Prototype)
 
-## Technologies Used
+## Technologies
 
-* Python
-* OpenCV
-* YOLOv8
-* Ultralytics
-* Computer Vision
-* Artificial Intelligence
+- Python
+- OpenCV
+- YOLOv8
+- Computer Vision
 
-## Applications
+## Installation
 
-* Smart Cities
-* Traffic Monitoring
-* Public Safety
-* Law Enforcement
-* Emergency Response Systems
+pip install -r requirements.txt
 
-## Future Scope
+## Run
 
-* ANPR (Automatic Number Plate Recognition)
-* Face Recognition
-* Smart Traffic Analytics
-* Police Database Integration
-* Multi-Camera Vehicle Tracking
+python bpoc.py
 
 ## Author
 
-Praveen Huchchappa Walikar
-Engineering Student
-HKBK College of Engineering
-Bengaluru
+Praveen Walikar
